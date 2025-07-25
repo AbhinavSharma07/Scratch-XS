@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+    php-apache:
+        container_name: vsnippet-open-redirect-classic-22
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - "127.0.0.1:1337:80"
