@@ -1,0 +1,8 @@
+services:
+    php-apache:
+        container_name: vsnippet-command-injection-saint_patrick
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - "127.0.0.1:1337:80"

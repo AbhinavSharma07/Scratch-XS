@@ -1,0 +1,75 @@
+/* Note : (This code is never a part of the vulnerable code snippet. It's only for design.) */
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+body {
+    font-family: 'Share Tech Mono', monospace;
+    background-color: #0d0d0d;
+    color: #33ff33;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.terminal {
+    width: 80%;
+    max-width: 700px;
+    margin: 50px auto;
+    background: #111;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 255, 0, 0.3);
+    border: 2px solid #33ff33;
+}
+
+header h1 {
+    font-size: 1.8em;
+    color: #33ff33;
+    text-shadow: 0 0 10px #33ff33;
+}
+
+.dropdown select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #33ff33;
+    background: black;
+    color: #33ff33;
+    font-size: 1em;
+    font-family: inherit;
+    outline: none;
+}
+
+.buy-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: 1px solid #33ff33;
+    background: black;
+    color: #33ff33;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-family: inherit;
+}
+
+.buy-btn:hover {
+    background: #33ff33;
+    color: black;
+    transform: scale(1.1);
+    text-shadow: 0 0 10px #33ff33;
+}
+
+.result-box {
+    margin-top: 20px;
+    padding: 10px;
+    background: rgba(0, 255, 0, 0.1);
+    border-radius: 5px;
+    font-size: 1.1em;
+    text-align: left;
+    white-space: pre-wrap;
+    font-family: inherit;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    opacity: 0.7;
+}
